@@ -1,10 +1,15 @@
 .form {
   width: 60%;
   background-color: rgba(227, 236, 236, 0.8);
+  min-width: 200px;
+  border-radius: 10px;
+  font-family: 'Courier New', Courier, monospace;
 }
 a:link {
   text-decoration: none;
   color: black;
+  display: inline-block;
+  font-family: 'Courier New', Courier, monospace;
 }
 a:link:hover {
   color: pink;
@@ -13,6 +18,28 @@ a:link:hover {
 input {
   position: relative;
   font-size: 20px;
-  margin: 20px;
+  margin: 10px;
   padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  
+ 
 }
+.centered{
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.text_input{
+width: 80%;
+}
+.right-cent{
+  margin-left: 10%;
+  padding-left:  10px;
+}
+

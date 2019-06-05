@@ -4,6 +4,7 @@ a.glo {
   width: 100px;
   text-decoration: none;
   text-align: center;
+  font-family: 'Courier New', Courier, monospace;
   margin: 20px auto;
   display: block;
   background-image: linear-gradient(to left, transparent, transparent 50%, palevioletred, 50%, pink);
