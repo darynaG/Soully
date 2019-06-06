@@ -3,12 +3,12 @@
   padding: 0;
 }
 .top-menu {
+  z-index: 999999999;
   height: 90px;
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
   background-color: #EDEAE5;
   position: fixed;
 }
@@ -16,9 +16,8 @@
   display: flex;
   align-items: center;
 }
-.top-menu .top-menu-nav .logo float .logo-img {
-  height: 60px;
-  width: 60px;
+.top-menu .top-menu-nav .top-menu-nav-list {
+  list-style-type: none;
 }
 .top-menu .top-menu-nav .top-menu-nav-list li {
   display: inline;
@@ -29,6 +28,5 @@
 .top-menu .top-menu-nav .top-menu-nav-list li a {
   text-align: center;
   display: inline-block;
-  padding: 0.5em 1.5em;
   color: black;
 }
