@@ -124,3 +124,6 @@ html {
   max-width: 60%;
   font-size: 40px;
 }
+.right-align {
+  right: 0px;
+}
