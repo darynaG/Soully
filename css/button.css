@@ -1,17 +1,17 @@
 a.glo {
-  color: palevioletred;
+  color: black;
   padding: 10px 20px;
   width: 100px;
   text-decoration: none;
   text-align: center;
   margin: 20px auto;
   display: block;
-  background-image: linear-gradient(to left, transparent, transparent 50%, palevioletred, 50%, palevioletred);
+  background-image: linear-gradient(to left, transparent, transparent 50%, #EDEAE5, 50%, #EDEAE5);
   background-position: 100% 0;
   background-size: 200% 100%;
   transition: all 0.25s ease-in;
   font: 400 18px tahoma;
-  border: 1px solid palevioletred;
+  border: 1px solid #EDEAE5;
 }
 a.glo:hover {
   background-position: 0 0;
