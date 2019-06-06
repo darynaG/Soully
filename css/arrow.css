@@ -1,18 +1,17 @@
 .arrow {
   box-sizing: border-box;
-  height: 5vw;
-  width: 5vw;
+  height: 3vw;
+  width: 3vw;
   border-style: solid;
   border-color: black;
-  border-width: 0px 4px 4px 0px;
-  transform: rotate(45deg);
+  border-width: 0px 0px 4px 0px;
   transition: border-width 150ms ease-in-out;
-  position: fixed;
+  position: absolute;
   bottom: 5%;
 }
 .arrow:hover {
   border-bottom-width: 4px;
-  border-right-width: 4px;
+  border-right-width: 0px;
 }
 .container {
   display: flex;
