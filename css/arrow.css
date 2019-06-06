@@ -21,6 +21,7 @@
   background-image: url(Soully/img/b.jpg);
   height: 100vh;
   flex-direction: column;
+  align-content: center;
 }
 #full {
   height: 100vh;
