@@ -27,7 +27,7 @@ input {
   width: 80%;
 }
 input[type=checkbox] {
-  width: 10%;
+  width: 5%;
 }
 .centered {
   justify-content: center;
