@@ -7,27 +7,53 @@
     <title>Soul.ly</title>
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    
     <link rel="stylesheet" type="text/css" href="css/arrow.css">
-    <link rel="stylesheet" type="text/css" href="css/buttons.css">
+    <link rel="stylesheet" type="text/css" href="css/button.css">
     <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/header_s.css">
+    <link rel="stylesheet" type="text/css" href="css/mood-picker.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
     <script src="https://kit.fontawesome.com/be8b06a7b6.js"></script>
 </head>
 <body > 
-    <header class="header">
-        <nav>
-            <div class="logo">Logo</div>
-            <ul class="menu-area">
+        
+        <header class="top-menu">
+
+                <nav class="top-menu-nav">
+                    <div class="logo">
+                          LOGO
+                    </div>
+                <div class="centered">
+                    <ul class="top-menu-nav-list">
+                        <li>
+                           <a href="#">Home</a> 
+                        </li>
+                        <li>
+                            <a href="#">Day</a>
+                        </li>
+                        <li>
+                          <a href="#">Month</a>
+                        </li>
+                        <li>
+                           <a href="#">Stories</a> 
+                        </li>
+                    </ul>
+                    </div>
+                    <div class="top-menu-nav-list">
+                        <li>
+                            <a href="login.html">Log in</a> 
+                         </li>
+                    </div>
+                </nav>
+             
+               
+            </header>
+            
               
-                <li><a href="login.html">Log in</a></li>
-            </ul>
- 
- 
-        </nav>
-    </header>
     <section id="greating" class="container">
-    <div class="image-main">
+            
        
    
 <div class="centered-text">  
@@ -45,15 +71,20 @@
 
 </section>
 <section id="base" class="container"> 
-    <div class="title-text">Choose your mood?</div>
-<div class="mood_container">
-        <i class='far fa-tired' style='font-size:56px'></i>
-        <i class='far fa-tired' style='font-size:56px'></i>
-        <i class='far fa-tired' style='font-size:56px'></i>
-        <i class='far fa-tired' style='font-size:56px'></i>
-        <i class='far fa-tired' style='font-size:56px'></i>
-
-</div>
+    
+    <section class="mood-picker">
+            <span class="mood-label">
+                <h3 class="h3-label">What is your mood?</h3>
+            </span>
+            <span class="mood-content">
+                    <i class="far fa-laugh-squint fa-3x"> </i>
+                    <i class="far fa-laugh-squint fa-3x"> </i>
+                    <i class="far fa-laugh-squint fa-3x"> </i>
+                    <i class="far fa-laugh-squint fa-3x"> </i>
+                    <i class="far fa-laugh-squint fa-3x"> </i>
+                    <i class="far fa-laugh-squint fa-3x"> </i>
+                </span> 
+        </section>
 <a href="#" class="glo">Done</a>
 <div class="storyboard">
     <div class="story_column left">

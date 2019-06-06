@@ -6,44 +6,23 @@
   box-sizing: border-box;
 }
 body {
-  background-image: url(Image/bckg_1.jpg);
+  background-image: url(../img/StockSnap_LYUB5TFFRD.jpg);
   background-size: cover;
   background-position: center center;
   height: 100vh;
 }
-.menu-area li a {
-  text-decoration: none;
-  top: 0;
-  color: #026670;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-family: 'Courier New', Courier, monospace;
-  display: block;
-  padding: 0 25px;
-  font-size: 1 px;
-  line-height: 30px;
-  position: sticky;
-  z-index: 1;
-}
-.menu-area li {
-  list-style: none;
-  display: inline-block;
-}
-.menu-area a:hover {
-  background: #FEF9C7;
-  color: #026670;
-}
-.header {
-  padding-top: 0px;
-}
-nav {
-  position: relative;
-  padding: 10px 20px 10px 10px;
-  text-align: right;
-  z-index: 1;
-  background: #EDEAE5;
-  margin: 0 auto;
-  width: calc(100%-60px);
+.bg-image {
+  /* The image used */
+  background-image: url(../img/b.jpg);
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .centered-text {
   display: block;
@@ -140,6 +119,5 @@ html {
 .title-text {
   padding: 35px;
   max-width: 60%;
-  margin: 40px;
   font-size: 40px;
 }
