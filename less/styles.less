@@ -1,3 +1,4 @@
+@import "variables.less";
 *
 {
   margin: 0;
@@ -10,12 +11,12 @@
 body
 {
 
-  background-image: url(../img/sky.jpg);
+  
   
   background-size: cover;
   background-position: center center;
   height: 100vh;
-
+  background-image: url(../img/sky.jpg);
 
 }
 
@@ -107,14 +108,17 @@ width: 100%;
 .storyboard{
   justify-content: space-between;
   width: 80%;
+  font-family: @font-label;
   padding: 5px;
-  display: flexbox;
+  display: flex;
+    flex-wrap: wrap;
   position: absolute;
   margin-top: 240px;
+  flex-direction: row;
 
 }
 .storyboard::after{
-  display: table;
+  display: flexbox;
   clear: both;
 }
 .story{
@@ -123,6 +127,7 @@ display: flexbox;
   margin: 20px;
   padding: 15px;
   border-radius: 10px;
+  font-family: @font-label;
 
 }
 .image_user{
@@ -131,29 +136,41 @@ width: 50px;
 display: inline-block;
 
 }
-.story_column{
-  flex: 50%;
-float: left;
-}
+
 .left{
-  width: 70%;
+  flex: 70%;
 }
 .right{
-  width: 30%;
+  flex: 30%;
 }
-
+.story article{
+  font-family: @font-label;
+  font-size: 20px;
+}
 .story_head{
   display: flex;
   flex-direction: row;
   justify-content: right;
+  font-family: @font-label;
 }
 .title-text{
   padding: 35px;
   max-width: 60%;
+  font-family: @font-label;
   
 
  font-size: 40px;
 }
 .right-align{
   right: 0px;
+}
+.row{
+  display: flex;
+  flex-direction: column;
+}
+.add-margin{
+  margin-top: 50px;
+}
+.add-margin-max{
+  margin-top: 150px;
 }
