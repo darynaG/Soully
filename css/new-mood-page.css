@@ -11,6 +11,17 @@
   flex-direction: column;
   justify-content: center;
   align-content: center;
+  align-items: stretch;
+  margin-top: 150px;
+}
+.mood-picker .arrow {
+  margin-top: 30vh;
+}
+.mood-picker a {
+  align-self: center;
+}
+.mood-picker .h3-label {
+  font-size: 40px;
 }
 .activity-picker {
   height: 91vh;
@@ -18,11 +29,30 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: stretch;
   align-content: center;
+  padding-top: 170px;
+}
+.activity-picker .h3-label {
+  font-size: 40px;
+}
+.activity-picker .arrow {
+  margin-top: 25vh;
+}
+.activity-picker a {
+  align-self: center;
 }
 .story-sharer {
-  height: 91vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  height: 71vh;
   width: 100vw;
+  margin-top: 200px;
+}
+.story-sharer .h3-label {
+  font-size: 40px;
 }
 .block {
   padding: 0;
@@ -62,12 +92,27 @@
 .flex-item:hover .h6-label,
 .flex-item:hover .h5-label {
   visibility: visible;
+  background-color: rgba(240, 248, 255, 0.205);
 }
 .h5-label {
   font-family: 'Courier New', Courier, monospace;
   font-size: 18px;
   text-align: center;
-  font-size: 13px;
   visibility: hidden;
   margin-top: 20px;
+}
+.video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin-bottom: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  z-index: -100;
 }
