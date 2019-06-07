@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link type="text/css" href="css/normalize.css">
-    
-    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link type="text/css" href="css/arrow.css">
+    <link rel="stylesheet" type="text/css" href="css/header_s.css">
     <link rel="stylesheet" type="text/css" href="css/footer.css">
     <link rel="stylesheet" type="text/css" href="css/mood-picker.css">
     <link rel="stylesheet" href="node_modules/swiper/dist/css/swiper.min.css">
@@ -16,27 +16,37 @@
 </head>
 <body class="page-body">
     
-    <header class="top-menu">
-        
-        <nav class="top-menu-nav">
-           
-            <ul class="top-menu-nav-list">
-                <li>
-                   <a>Home</a> 
-                </li>
-                <li>
-                    <a>Day</a>
-                </li>
-                <li>
-                  <a>Month</a>
-                </li>
-                <li>
-                   <a>Stories</a> 
-                </li>
-            </ul>
-        </nav>
-       
-    </header>
+        <header class="top-menu">
+
+                <nav class="top-menu-nav">
+                    <div class="logo">
+                          LOGO
+                    </div>
+                <div class="centered">
+                    <ul class="top-menu-nav-list">
+                        <li>
+                           <a href="recomendation-page.html">Home</a> 
+                        </li>
+                        <li>
+                            <a href="mood-page.html">Day</a>
+                        </li>
+                        <li>
+                          <a href="recomendation-page.html">Month</a>
+                        </li>
+                        <li>
+                           <a href="recomendation-page.html">Stories</a> 
+                        </li>
+                    </ul>
+                    </div>
+                    <div class="top-menu-nav-list">
+                        <li>
+                            <a href="login.html">Log out</a> 
+                         </li>
+                    </div>
+                </nav>
+             
+               
+            </header>
 
 
     <section class="page-content">
@@ -57,10 +67,15 @@
                     <i class="far fa-laugh-wink fa-5x"> </i>
                     <i class="far fa-laugh-beam fa-5x"> </i>
                     <i class="far fa-laugh-squint fa-5x"> </i>
+            
             </div> 
+          
+           
         </section>
-        <section class="activity-picker">
-                <span class="activity-label">
+       
+            <section class="activity-picker" >
+                    
+                <span class="activity-label" id="activity">
                         <h3 class="h3-label">What you`ve been up to?</h3>
                 </span>
                 <ul class="block">
@@ -115,6 +130,7 @@
     <span class="footer-label">
         <h3 class="h3-label">Made by team Oscar. Bootcamp`19.</h3>
     </span>
+    
 </footer>
 <script src="https://kit.fontawesome.com/be8b06a7b6.js"></script>
 

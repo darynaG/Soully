@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 body {
-  background-image: url(../img/StockSnap_LYUB5TFFRD.jpg);
+  background-image: url(../img/sky.jpg);
   background-size: cover;
   background-position: center center;
   height: 100vh;
@@ -85,6 +85,8 @@ html {
   width: 80%;
   padding: 5px;
   display: flexbox;
+  position: absolute;
+  margin-top: 240px;
 }
 .storyboard::after {
   display: table;
@@ -121,4 +123,7 @@ html {
   padding: 35px;
   max-width: 60%;
   font-size: 40px;
+}
+.right-align {
+  right: 0px;
 }
