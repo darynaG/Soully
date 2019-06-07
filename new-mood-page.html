@@ -13,6 +13,7 @@
     <title>Mood Page</title>
 </head>
 <body>
+    <div>
     <header class="top-menu">
 
         <nav class="top-menu-nav">
@@ -42,6 +43,7 @@
             </div>
         </nav>
     </header>
+</div>
         <div class="mood-picker">
             <h3 class="h3-label">What is your mood?</h3>  
             <ul class="block">
@@ -65,12 +67,12 @@
                             <i class="far fa-laugh-squint fa-5x"><h6 class="h5-label">happy</h6></i>
                     </li>              
                     </ul>
-
+                           <a href="#activity" class="scroll-down-arrow"><i class="fas fa-angle-down fa-3x"></i></a> 
     </div>
-    <div class="activity-picker">
-            <span class="activity-label" id="activity">
+    <div class="activity-picker" id="activity">
+      
                     <h3 class="h3-label">What you`ve been up to?</h3>
-            </span>
+           
             <ul class="block">
                     <li class="flex-item">
                          <i class="fas fa-glass-whiskey fa-3x"><h6 class="h6-label">Water</h6> </i>
@@ -103,12 +105,15 @@
                     <li class="flex-item">  
                     <i class="fas fa-hand-holding-heart fa-3x"><h6 class="h6-label">Charity</h6></i>
                     </li>
-               
                     </ul>
+                    <a href="#story" class="scroll-down-arrow"><i class="fas fa-angle-down fa-3x"></i></a> 
     </div>
-    <div class="story-sharer">
+    <div class="story-sharer" id="story">
             <h3 class="h3-label">Share your story</h3>
-            
+            <form class="story">
+                <textarea class="story-text" name="subject" placeholder="Write something.."></textarea>
+                <input type="submit" value="Submit">
+            </form>
     </div>
     </div>
     <footer class="footer">
