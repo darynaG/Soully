@@ -8,11 +8,13 @@
     <link type="text/css" href="css/arrow.css">
     <link rel="stylesheet" type="text/css" href="css/header_s.css">
     <link rel="stylesheet" type="text/css" href="css/footer.css">
-    <link rel="stylesheet" type="text/css" href="css/new-mood-page.css">    
+    <link rel="stylesheet" type="text/css" href="css/new-mood-page.css">  
+    <link rel="stylesheet" type="text/css" href="css/arrow.css">  
 
     <title>Mood Page</title>
 </head>
 <body>
+<div>
     <header class="top-menu">
 
         <nav class="top-menu-nav">
@@ -22,19 +24,19 @@
         <div class="centered">
             <ul class="top-menu-nav-list">
                 <li>
-                   <a href="recomendation-page.html">Home</a> 
+                   <a href="new-recomendation-page.html">Home</a> 
                 </li>
                 <li>
-                    <a href="mood-page.html">Day</a>
+                    <a href="new-mood-page.html">Day</a>
                 </li>
                 <li>
-                  <a href="recomendation-page.html">Month</a>
+                  <a href="new-recomendation-page.html">Month</a>
                 </li>
                 <li>
-                   <a href="recomendation-page.html">Stories</a> 
+                   <a href="new-recomendation-page.html">Stories</a> 
                 </li>
             </ul>
-            </div>
+        </div>
             <div class="top-menu-nav-list">
                 <li>
                     <a href="login.html">Log out</a> 
@@ -42,7 +44,8 @@
             </div>
         </nav>
     </header>
-    <div class="mood-picker">
+</div>
+        <div class="mood-picker">
             <h3 class="h3-label">What is your mood?</h3>  
             <ul class="block">
                     <li class="flex-item">
@@ -65,12 +68,16 @@
                             <i class="far fa-laugh-squint fa-5x"><h6 class="h5-label">happy</h6></i>
                     </li>              
                     </ul>
-
+                          <!-- <a href="#activity" class="scroll-down-arrow"><i class="fas fa-angle-down fa-3x"></i></a> -->
+                          <a href="#activity"> <div class="arrow"></div></a>
+                    <video  class="video" playsinline autoplay muted loop id="myVideo">
+                                <source src="video/Nature.mp4" type="video/mp4">
+                    </video>
     </div>
-    <div class="activity-picker">
-            <span class="activity-label" id="activity">
+    <div class="activity-picker" id="activity">
+      
                     <h3 class="h3-label">What you`ve been up to?</h3>
-            </span>
+           
             <ul class="block">
                     <li class="flex-item">
                          <i class="fas fa-glass-whiskey fa-3x"><h6 class="h6-label">Water</h6> </i>
@@ -103,11 +110,15 @@
                     <li class="flex-item">  
                     <i class="fas fa-hand-holding-heart fa-3x"><h6 class="h6-label">Charity</h6></i>
                     </li>
-               
                     </ul>
+                    <a href="#story"> <div class="arrow"></div></a>
     </div>
-    <div class="story-sharer">
-
+    <div class="story-sharer" id="story">
+            <h3 class="h3-label">Share your story</h3>
+            <form class="story">
+                <textarea class="story-text" name="subject" placeholder="Write something.."></textarea>
+                <input type="submit" value="Submit">
+            </form>
     </div>
     </div>
     <footer class="footer">

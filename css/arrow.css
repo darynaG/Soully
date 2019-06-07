@@ -11,19 +11,22 @@
   z-index: 999999999;
 }
 .arrow:hover {
-  border-bottom-width: 4px;
+  border-bottom-width: 6px;
   border-right-width: 0px;
 }
 .container {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(Soully/img/b.jpg);
-  height: 100vh;
+  min-height: 100vh;
   flex-direction: column;
   align-content: center;
+  padding-top: 20px;
 }
 #full {
   height: 100vh;
   background-color: #256347;
+}
+.make-down {
+  margin-top: 80vh;
 }

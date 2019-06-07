@@ -3,7 +3,6 @@
   padding: 0px;
 }
 .top-menu {
-  top: 0;
   height: 9vh;
   width: 100%;
   display: flex;
@@ -14,6 +13,7 @@
   z-index: 999999999999;
   position: fixed;
   padding: 10px;
+  top: 0;
 }
 .top-menu .top-menu-nav {
   display: flex;
