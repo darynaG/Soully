@@ -11,9 +11,7 @@
 }
 .monthly-log .left-col,
 .monthly-log .right-col {
-  margin: 2vw;
   width: 50%;
-  margin-top: 60px;
 }
 .monthly-log .left-col h1,
 .monthly-log .right-col h1 {

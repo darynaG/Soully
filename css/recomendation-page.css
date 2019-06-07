@@ -1,7 +1,7 @@
 .body {
   margin: 0;
   padding: 0;
-  width: 100%;
+  width: 100vw;
   height: 100%;
 }
 .recomendation-block {
@@ -14,7 +14,6 @@
   align-content: center;
   box-sizing: border-box;
   margin-top: 110px;
-  margin-left: 10vw;
 }
 .recomendation-block .column {
   margin: 2vw;
