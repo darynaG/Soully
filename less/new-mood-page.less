@@ -1,0 +1,92 @@
+@import "variables.less";
+.body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.mood-picker{
+    //padding-top: 110px;
+    height: 91vh;    //height: 100vh- @header-height;
+    width: 100vw;
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    .h3-label{
+
+    }
+}
+.activity-picker{
+    //padding-top: 110px;
+    height: 91vh;
+    width: 100vw;
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+}
+.story-sharer{
+    //height: 100vh;
+   // height: 100vh- @header-height;
+  height: 91vh;
+    width: 100vw;
+}
+
+.block {
+       
+    padding: 0;
+    margin: 0;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    list-style: none;
+    
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-flex-flow: row wrap;
+    flex-flow: wrap;
+    justify-content: space-around;
+  }
+  
+  .flex-item {
+    .h6-label{
+        text-align: center;
+        font-family: @font-label;
+        font-size: 13px;
+        visibility: hidden;
+        margin-top: 20px;
+        
+    }
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    margin-top: 100px;
+    
+    line-height: 60px;
+    
+    font-weight: bold;
+    text-align: center;
+
+    
+    &:hover {
+       
+        color : #004d40;
+        .h6-label, .h5-label{
+            visibility: visible;
+        }
+    }
+    
+  }
+  .h5-label{
+      font-family: @font-label;
+      font-size: 18px;
+      text-align: center;
+        font-size: 13px;
+        visibility: hidden;
+        margin-top: 20px;
+  }
