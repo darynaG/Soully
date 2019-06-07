@@ -19,7 +19,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../img/sky.jpg);
   min-height: 100vh;
   flex-direction: column;
   align-content: center;

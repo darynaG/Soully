@@ -1,3 +1,8 @@
+@media screen and (max-width: 1400px) {
+  .add-margin-max {
+    margin-top: 10px;
+  }
+}
 @media screen and (max-width: 900px) {
   .container,
   .centered-text {
@@ -23,6 +28,11 @@
     font-size: 15px;
     margin: 10px;
     padding: 5px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .story article {
+    font-size: 16px;
   }
 }
 @media screen and (max-width: 500px) {
@@ -72,5 +82,11 @@
   }
   .flex-item i.fa-laugh-wink {
     margin-left: -5px;
+  }
+  .centered-text {
+    font-size: 20px;
+  }
+  .right:last-child {
+    margin-bottom: 150px;
   }
 }
