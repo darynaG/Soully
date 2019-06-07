@@ -11,21 +11,41 @@
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  margin-top: 200px;
+  align-items: stretch;
+  margin-top: 150px;
 }
-.activity-picker {
+.mood-picker .arrow {
+  margin-top: 30vh;
+}
+.mood-picker a {
+  align-self: center;
+}
+.mood-picker .h3-label {
+  font-size: 40px;
+}
+.mood-picker .h3-label .flex-item:hover {
+  color: red;
+}
+.mood-picker .activity-picker {
   height: 91vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: stretch;
   align-content: center;
-  margin-top: 200px;
+  padding-top: 170px;
 }
-.activity-picker .a {
-  height: 50px;
+.mood-picker .activity-picker .h3-label {
+  font-size: 40px;
 }
-.story-sharer {
+.mood-picker .activity-picker .arrow {
+  margin-top: 25vh;
+}
+.mood-picker .activity-picker a {
+  align-self: center;
+}
+.mood-picker .story-sharer {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -34,7 +54,10 @@
   width: 100vw;
   margin-top: 200px;
 }
-.block {
+.mood-picker .story-sharer .h3-label {
+  font-size: 40px;
+}
+.mood-picker .block {
   padding: 0;
   margin: 0;
   margin-left: 100px;
@@ -50,7 +73,7 @@
   flex-flow: wrap;
   justify-content: space-around;
 }
-.flex-item {
+.mood-picker .flex-item {
   padding: 5px;
   width: 50px;
   height: 50px;
@@ -59,27 +82,40 @@
   font-weight: bold;
   text-align: center;
 }
-.flex-item .h6-label {
+.mood-picker .flex-item .h6-label {
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
   font-size: 13px;
   visibility: hidden;
   margin-top: 20px;
 }
-.flex-item:hover {
+.mood-picker .flex-item:hover {
   color: #004d40;
 }
-.flex-item:hover .h6-label,
-.flex-item:hover .h5-label {
+.mood-picker .flex-item:hover .h6-label,
+.mood-picker .flex-item:hover .h5-label {
   visibility: visible;
+  background-color: rgba(240, 248, 255, 0.205);
 }
-.h5-label {
+.mood-picker .h5-label {
   font-family: 'Courier New', Courier, monospace;
   font-size: 18px;
   text-align: center;
   visibility: hidden;
   margin-top: 20px;
 }
-.scroll-down-arrow {
-  margin: auto;
+.mood-picker .video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin-bottom: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  z-index: -100;
 }
