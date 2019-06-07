@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <link rel="stylesheet" href="css/swiper.css">
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="node_modules/swiper/dist/css/swiper.min.css">
+</head>
+<body>
+        <div class="swiper-container">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <img src="img/book.jpeg">
+                        <h1>Name of book</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi provident a repudiandae animi minus aliquam, exercitationem deleniti, optio, quas nemo doloribus nostrum! Exercitationem necessitatibus iure ipsum vel sit quidem doloribus! </p>
+                   
+
+                    </div>
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+                    
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev">
+                        <i class="fas fa-angle-left"></i>
+                </div>
+                <div class="swiper-button-next"></div>
+            
+                <!-- If we need scrollbar -->
+               
+            </div>
+            <script src="node_modules/swiper/dist/js/swiper.min.js"></script>
+            <script>
+                    var mySwiper = new Swiper ('.swiper-container', {
+                      // Optional parameters
+                      direction: 'horizontal',
+                      loop: true,
+                  
+                      // If we need pagination
+                      pagination: {
+                        el: '.swiper-pagination',
+                      },
+                  
+                      // Navigation arrows
+                      navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                      },
+                  
+                      // And if we need scrollbar
+                      scrollbar: {
+                        el: '.swiper-scrollbar',
+                      },
+                    })
+                    </script>
+                    
+</body>
+</html>

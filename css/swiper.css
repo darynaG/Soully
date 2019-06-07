@@ -1,0 +1,23 @@
+.swiper-container {
+  width: 400px;
+  height: 500px;
+}
+.swiper-container h1 {
+  text-align: center;
+}
+.swiper-container img {
+  width: 100%;
+}
+.swiper-container .swiper-wraper {
+  align-items: center;
+  text-align: center;
+}
+.swiper-container .swiper-slide {
+  align-items: center;
+}
+.swiper-container .swiper-button-prev {
+  background-image: url(../img/angle-left.png);
+}
+.swiper-container .swiper-button-next {
+  background-image: url(../img/angle-right.png);
+}
