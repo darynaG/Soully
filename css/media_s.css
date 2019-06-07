@@ -24,6 +24,17 @@
   .storyboard {
     width: 100vw;
   }
+  .title-text.centered {
+    font-size: 25px;
+  }
+  .right-cent {
+    font-size: 20px;
+  }
+  .form {
+    margin-right: 8%;
+    margin-left: 8%;
+    width: 80%;
+  }
   .story {
     font-size: 15px;
     margin: 10px;
@@ -33,6 +44,18 @@
 @media screen and (max-width: 580px) {
   .story article {
     font-size: 16px;
+  }
+  .title-text.centered {
+    font-size: 20px;
+    margin-left: -10px;
+  }
+  .right-cent {
+    font-size: 15px;
+  }
+  .form {
+    margin-right: 5%;
+    margin-left: 5%;
+    width: 90%;
   }
 }
 @media screen and (max-width: 500px) {
