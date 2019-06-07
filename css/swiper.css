@@ -1,12 +1,19 @@
 .swiper-container {
   width: 400px;
   height: 500px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.swiper-container i {
+  color: #004d40;
 }
 .swiper-container h1 {
   text-align: center;
 }
 .swiper-container img {
   width: 100%;
+}
+.swiper-container p {
+  text-align: justify;
 }
 .swiper-container .swiper-wraper {
   align-items: center;
@@ -15,9 +22,19 @@
 .swiper-container .swiper-slide {
   align-items: center;
 }
+.swiper-container .swiper-slide div {
+  width: 320px;
+  margin-left: 40px;
+}
+.swiper-container .swiper-pagination {
+  bottom: -20px;
+}
 .swiper-container .swiper-button-prev {
   background-image: url(../img/angle-left.png);
 }
 .swiper-container .swiper-button-next {
   background-image: url(../img/angle-right.png);
+}
+.swiper-container .swiper-pagination-bullet-active {
+  background: #004d40;
 }

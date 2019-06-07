@@ -9,10 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/recomendation.css">
     <link rel="stylesheet" type="text/css" href="css/header_s.css">
     <link rel="stylesheet" type="text/css" href="css/swiper.css">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/css/swiper.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/css/swiper.min.css">
-    
+  <link rel="stylesheet" href="css/swiper.css">    
     <title>Soul.ly</title>
 
 </head>
@@ -50,10 +47,54 @@
              
                
             </header>
-
-         
-
- </section>
+            <div class="swiper-container">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                
+                            <img src="img/book.jpeg">
+                            
+                            <h1>Name of book</h1>
+                            <div>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi provident a repudiandae animi minus aliquam, exercitationem deleniti, optio, quas nemo doloribus nostrum! Exercitationem necessitatibus iure ipsum vel sit quidem doloribus! </p>
+                            <i>#happy #fun #mood #comedy</i>
+                        </div>
+                        </div>
+                        <div class="swiper-slide">
+                
+                                <img src="img/book.jpeg">
+                                
+                                <h1>Name of book</h1>
+                                <div>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi provident a repudiandae animi minus aliquam, exercitationem deleniti, optio, quas nemo doloribus nostrum! Exercitationem necessitatibus iure ipsum vel sit quidem doloribus! </p>
+                                <i>#happy #fun #mood #comedy</i>
+                            </div>
+                            </div>
+                            <div class="swiper-slide">
+                
+                                    <img src="img/book.jpeg">
+                                    
+                                    <h1>Name of book</h1>
+                                    <div>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi provident a repudiandae animi minus aliquam, exercitationem deleniti, optio, quas nemo doloribus nostrum! Exercitationem necessitatibus iure ipsum vel sit quidem doloribus! </p>
+                                    <i>#happy #fun #mood #comedy</i>
+                                </div>
+                                </div>
+                        
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev">
+                    
+                    </div>
+                    <div class="swiper-button-next"></div>
+                
+                    <!-- If we need scrollbar -->
+                   
+                </div>
          <section class="page-content">
      <!--recomendation section-->
      <section class="recomend-box-section">
@@ -372,7 +413,31 @@
      </section>
      
      </section>
-     
+ 
+        <script src="node_modules/swiper/dist/js/swiper.min.js"></script>
+        <script>
+                var mySwiper = new Swiper ('.swiper-container', {
+                  // Optional parameters
+                  direction: 'horizontal',
+                  loop: true,
+              
+                  // If we need pagination
+                  pagination: {
+                    el: '.swiper-pagination',
+                  },
+              
+                  // Navigation arrows
+                  navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                  },
+              
+                  // And if we need scrollbar
+                  scrollbar: {
+                    el: '.swiper-scrollbar',
+                  },
+                })
+                </script>
      
      </body>
      

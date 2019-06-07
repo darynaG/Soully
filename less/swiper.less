@@ -1,23 +1,33 @@
-.swiper-container {
+
+@import "variables.less";.swiper-container {
     width: 400px;
     height: 500px;
+    font-family: 'Courier New', Courier, monospace;
+    i{
+        color:@green;
+    }
     h1{
         text-align: center;
     }
     img{
         width: 100%;
     }
- 
-
-   
+    p{
+        text-align: justify;
+    }
     .swiper-wraper{
         align-items:center;
             text-align: center;
            }
        .swiper-slide{
            align-items: center;
-           
-         
+           div{
+               width: 320px;
+               margin-left:40px;
+           }
+       }
+       .swiper-pagination{
+           bottom:-20px;
        }
        .swiper-button-prev{
            background-image:url(../img/angle-left.png);
@@ -25,7 +35,9 @@
        .swiper-button-next{
            background-image: url(../img/angle-right.png);
        }
-
-    
+       .swiper-pagination-bullet-active{
+           background: @green;
+       }
     
 }
+
