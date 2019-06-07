@@ -23,10 +23,7 @@
 .mood-picker .h3-label {
   font-size: 40px;
 }
-.mood-picker .h3-label .flex-item:hover {
-  color: red;
-}
-.mood-picker .activity-picker {
+.activity-picker {
   height: 91vh;
   width: 100vw;
   display: flex;
@@ -36,16 +33,16 @@
   align-content: center;
   padding-top: 170px;
 }
-.mood-picker .activity-picker .h3-label {
+.activity-picker .h3-label {
   font-size: 40px;
 }
-.mood-picker .activity-picker .arrow {
+.activity-picker .arrow {
   margin-top: 25vh;
 }
-.mood-picker .activity-picker a {
+.activity-picker a {
   align-self: center;
 }
-.mood-picker .story-sharer {
+.story-sharer {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -54,10 +51,10 @@
   width: 100vw;
   margin-top: 200px;
 }
-.mood-picker .story-sharer .h3-label {
+.story-sharer .h3-label {
   font-size: 40px;
 }
-.mood-picker .block {
+.block {
   padding: 0;
   margin: 0;
   margin-left: 100px;
@@ -73,7 +70,7 @@
   flex-flow: wrap;
   justify-content: space-around;
 }
-.mood-picker .flex-item {
+.flex-item {
   padding: 5px;
   width: 50px;
   height: 50px;
@@ -82,29 +79,29 @@
   font-weight: bold;
   text-align: center;
 }
-.mood-picker .flex-item .h6-label {
+.flex-item .h6-label {
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
   font-size: 13px;
   visibility: hidden;
   margin-top: 20px;
 }
-.mood-picker .flex-item:hover {
+.flex-item:hover {
   color: #004d40;
 }
-.mood-picker .flex-item:hover .h6-label,
-.mood-picker .flex-item:hover .h5-label {
+.flex-item:hover .h6-label,
+.flex-item:hover .h5-label {
   visibility: visible;
   background-color: rgba(240, 248, 255, 0.205);
 }
-.mood-picker .h5-label {
+.h5-label {
   font-family: 'Courier New', Courier, monospace;
   font-size: 18px;
   text-align: center;
   visibility: hidden;
   margin-top: 20px;
 }
-.mood-picker .video {
+.video {
   position: absolute;
   top: 50%;
   left: 50%;
