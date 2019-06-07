@@ -9,8 +9,12 @@
     <link rel="stylesheet" type="text/css" href="css/recomendation.css">
    
     <link rel="stylesheet" type="text/css" href="css/header_s.css">
+
+    <link rel="stylesheet" type="text/css" href="css/swiper.css">
+  <link rel="stylesheet" href="css/swiper.css">    
     <link rel="stylesheet" type="text/css" href="css/footer.css">
     <script src="https://kit.fontawesome.com/be8b06a7b6.js"></script>
+
     <title>Soul.ly</title>
 
 </head>
@@ -19,39 +23,36 @@
        <!--navigaton bar-->
        <header class="top-menu">
 
-            <nav class="top-menu-nav">
-                <div class="logo">
-                      LOGO
-                </div>
-            <div class="centered">
-                <ul class="top-menu-nav-list">
-                    <li>
-                       <a href="recomendation-page.html">Home</a> 
-                    </li>
-                    <li>
-                        <a href="mood-page.html">Day</a>
-                    </li>
-                    <li>
-                      <a href="recomendation-page.html">Month</a>
-                    </li>
-                    <li>
-                       <a href="recomendation-page.html">Stories</a> 
-                    </li>
-                </ul>
-                </div>
-                <div class="top-menu-nav-list">
-                    <li>
-                        <a href="login.html">Log out</a> 
-                     </li>
-                </div>
-            </nav>
-         
-           
-        </header>
 
-         
-
- </section>
+                <nav class="top-menu-nav">
+                    <div class="logo">
+                          LOGO
+                    </div>
+                <div class="centered">
+                    <ul class="top-menu-nav-list">
+                        <li>
+                           <a href="#">Home</a> 
+                        </li>
+                        <li>
+                            <a href="#">Day</a>
+                        </li>
+                        <li>
+                          <a href="#">Month</a>
+                        </li>
+                        <li>
+                           <a href="#">Stories</a> 
+                        </li>
+                    </ul>
+                    </div>
+                    <div class="top-menu-nav-list">
+                        <li>
+                            <a href="login.html">Log in</a> 
+                         </li>
+                    </div>
+                </nav>
+             
+               
+            </header>
          <section class="page-content">
      <!--recomendation section-->
      <section class="recomend-box-section">
@@ -370,6 +371,31 @@
      </section>
      
      </section>
+ 
+        <script src="node_modules/swiper/dist/js/swiper.min.js"></script>
+        <script>
+                var mySwiper = new Swiper ('.swiper-container', {
+                  // Optional parameters
+                  direction: 'horizontal',
+                  loop: true,
+              
+                  // If we need pagination
+                  pagination: {
+                    el: '.swiper-pagination',
+                  },
+              
+                  // Navigation arrows
+                  navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                  },
+              
+                  // And if we need scrollbar
+                  scrollbar: {
+                    el: '.swiper-scrollbar',
+                  },
+                })
+                </script>
      
      </body>
      
@@ -387,4 +413,4 @@
         </footer>
         
     
-</html>
+</html>       
