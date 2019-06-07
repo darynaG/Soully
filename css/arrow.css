@@ -7,7 +7,7 @@
   border-width: 0px 0px 4px 0px;
   transition: border-width 150ms ease-in-out;
   position: relative;
-  margin-top: 90vh;
+  margin-top: 80vh;
   bottom: 5%;
   z-index: 999999999;
 }
@@ -19,7 +19,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../img/sky.jpg);
   min-height: 100vh;
   flex-direction: column;
   align-content: center;
