@@ -13,7 +13,9 @@
     <link rel="stylesheet" type="text/css" href="css/footer.css">
     <link rel="stylesheet" type="text/css" href="css/header_s.css">
     <link rel="stylesheet" type="text/css" href="css/mood_s.css">
+   
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/media_s.css">
     <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
     <script src="https://kit.fontawesome.com/be8b06a7b6.js"></script>
 </head>
@@ -56,37 +58,45 @@
                
 </section>
     
-<section id="base" class="container page-content"> 
-    <br>
-    <br>
-    <section class="mood-picker">
-            
-        <div class="mood-label"> 
-          <h3 class="h3-label">What is your mood?</h3>  
-          <br>
-          <br>  
-    </div>
-    <br>
-    <br>
-       
-        <div class="mood-content">
-                
-                <i class="far fa-sad-tear fa-5x"></i>
-                <i class="far fa-frown-open fa-5x"></i>
-                <i class="far fa-meh-rolling-eyes fa-5x"></i>
-                <i class="far fa-laugh-wink fa-5x"> </i>
-                <i class="far fa-laugh-beam fa-5x"> </i>
-                <i class="far fa-laugh-squint fa-5x"> </i>
-        </div> 
-    </section>
-    <button class="btn">Keep track</button>
+<div id="base" class="container "> 
     
-<div class="storyboard">
-    <div class="mood-label"> 
-          <h3 class="h3-label">Story</h3>  
-          <br>
-          <br>  
+    <div class="mood-picker">
+            <h3 class="h3-label">What is your mood?</h3>  
+            <ul class="block">
+                    <li class="flex-item">
+                            <i class="far fa-sad-tear fa-5x"><h6 class="h5-label">sad</h6> </i>
+                    
+                </li>
+                    <li class="flex-item">  
+                            <i class="far fa-frown-open fa-5x"><h6 class="h5-label">wow</h6></i>
+                    </li>
+                    <li class="flex-item"> 
+                            <i class="far fa-meh-rolling-eyes fa-5x"><h6 class="h5-label">wtf</h6></i>
+                    </li>
+                    <li class="flex-item"> 
+                            <i class="far fa-laugh-wink fa-5x"> <h6 class="h5-label">excited</h6></i> 
+                    </li class="flex-item"> 
+                    <li class="flex-item"> 
+                            <i class="far fa-laugh-beam fa-5x"><h6 class="h5-label">good</h6></i>
+                    </li>
+                    <li class="flex-item">  
+                            <i class="far fa-laugh-squint fa-5x"><h6 class="h5-label">happy</h6></i>
+                    </li>              
+                    </ul>
+                   <br>
+                   <div class="add-margin">
+                        <h3 class="h3-label" id="story_header">Story</h3>  
+                            <br>
+                        </div>
+                           
+                      
     </div>
+   
+  
+       
+   
+<div class="storyboard">
+       
     <div class="story_column left">
             <div class="story">
                     
@@ -120,7 +130,8 @@
         
     </div>
 </div>
-</section>
+
+</div>
 
     </body>
     
