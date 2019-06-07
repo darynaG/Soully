@@ -1,0 +1,34 @@
+.body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+.recomendation-block {
+  height: 68vh;
+  width: 100vw;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  box-sizing: border-box;
+  margin-top: 110px;
+}
+.recomendation-block .column {
+  margin: 2vw;
+  width: 30%;
+  margin-top: 60px;
+}
+.scroll {
+  display: flex;
+  align-items: stretch;
+  align-content: center;
+  justify-content: center;
+}
+.scroll .arrow {
+  margin-top: 10vh;
+}
+.scroll a {
+  align-self: center;
+}
