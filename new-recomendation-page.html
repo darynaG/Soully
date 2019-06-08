@@ -12,13 +12,11 @@
 
     <link rel="stylesheet" type="text/css" href="css/swiper.css">
     <link rel="stylesheet" type="text/css" href="css/arrow.css">
-  <link rel="stylesheet" href="css/swiper.css">    
+    <link rel="stylesheet" href="css/swiper.css">    
     <link rel="stylesheet" type="text/css" href="css/footer.css">
     <link rel="stylesheet" type="text/css" href="css/monthly-log.css">
-
+    <link rel="stylesheet" type="text/css" href="css/daily-log.css">
     <link rel="stylesheet" href="css/swiper.css">
-
-    <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="node_modules/swiper/dist/css/swiper.min.css">
     <title>Soul.ly</title>
 </head>
@@ -212,9 +210,61 @@
                     </div>
 
         </div>
-<div class="scroll"><a href="#monthly_log"><div class="arrow"></div></a></div>
+    <div class="scroll"><a href="#daily_log"><div class="arrow"></div></a></div>
+    <div class="daily-log" id="daily_log" >
+
+            <h1>Daily mood</h1>
+            <div class="mood">
+                <h3>Your mood is</h3>
+                <i class="far fa-laugh-squint fa-5x"></i>
+            </div>
+       <div class="action">
+       <h3> You did it today:</h3>
+       <ul class="block">
+               <li class="flex-item">
+                    <i class="fas fa-glass-whiskey fa-3x"> </i>
+               
+           </li>
+               <li class="flex-item">  
+                   <i class="fas fa-table-tennis fa-3x"></i>
+               </li>
+               <li class="flex-item"> 
+                       <i class="fas fa-couch fa-3x"></i>
+               </li>
+               <li class="flex-item"> 
+               <i class="fas fa-walking fa-3x"></i> 
+               </li > 
+           </ul>
+   </div>
+   <div class="stories">
+       <h3>Your story:</h3> 
+       <div class="story">
+                                        
+               <article class="story_text">
+                       <i class="fas fa-quote-left ">
+                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore totam aut, ex commodi provident maiores quasi laboriosam eligendi perferendis recusandae incidunt aperiam porro cum illo quaerat officiis, iure tempora voluptate.
+                   <i class="fas fa-quote-right"></i></i>
+               </article>
+           </div>
+           <div class="story">
+                                        
+                   <article class="story_text">
+                           <i class="fas fa-quote-left ">
+                       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore totam aut, ex commodi provident maiores quasi laboriosam eligendi perferendis recusandae incidunt aperiam porro cum illo quaerat officiis, iure tempora voluptate.
+                       <i class="fas fa-quote-right"></i></i>
+                   </article>
+               </div>
+
+   </div>
+   <div><button id="keep_track_btn"><a href="new-mood-page.html">Keep track</a></button>
+    <div class="scroll"><a href="#monthly_log"><div class="arrow"></div></a></div></div>
+   
+</div>
+              
+    
         
        <div class="monthly-log" id="monthly_log">
+           
             <div class="left-col">
                     <h1>Mothly log</h1>
                     <div class="calendar">
@@ -271,9 +321,11 @@
                     </div>
                 </div>
                 <div class="right-col">
+                    <div>
                         <h1 id="quote1">Your day in detail</h1>
                              
                         <h1 id="quote2">Remind yourself how you felt</h1>
+                    </div>
                         <div class="caption">
                                 <div class="content">
                                         <h2 class="title-in-box">You felt
@@ -301,9 +353,9 @@
                             </div>
     
                     </div>
-          
-               
-     
+                   
+                
+         
        
 
 
