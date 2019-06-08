@@ -5,17 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link type="text/css" href="css/normalize.css">
-   
     <link rel="stylesheet" type="text/css" href="css/recomendation-page.css">
-   
     <link rel="stylesheet" type="text/css" href="css/header_s.css">
-
     <link rel="stylesheet" type="text/css" href="css/swiper.css">
     <link rel="stylesheet" type="text/css" href="css/arrow.css">
     <link rel="stylesheet" href="css/swiper.css">    
     <link rel="stylesheet" type="text/css" href="css/footer.css">
     <link rel="stylesheet" type="text/css" href="css/monthly-log.css">
     <link rel="stylesheet" type="text/css" href="css/daily-log.css">
+    <link rel="stylesheet" type="text/css" href="css/responsible-recomendation.css">
     <link rel="stylesheet" href="css/swiper.css">
     <link rel="stylesheet" href="node_modules/swiper/dist/css/swiper.min.css">
     <title>Soul.ly</title>
@@ -47,17 +45,19 @@
                 </div>
                 <div class="top-menu-nav-list">
                     <li>
-                        <a href="login.html">Log in</a> 
+                        <a href="index.html">Log out</a> 
                      </li>
                 </div>
             </nav>
          
            
         </header>
-
+        <div>
+    <div class="recom">
         <div class="recomendation-block">
-            <div class="column">
+           
             
+            <div class="column">
                     <div class="swiper-container">
                             <!-- Additional required wrapper -->
                             <div class="swiper-wrapper">
@@ -210,10 +210,12 @@
                     </div>
 
         </div>
-    <div class="scroll"><a href="#daily_log"><div class="arrow"></div></a></div>
-    <div class="daily-log" id="daily_log" >
+    
+        <div class="scroll"><a href="#daily_log"><div class="arrow"></div></a></div>
+    </div>
+        <div class="daily-log"   >
 
-            <h1>Daily mood</h1>
+            <h1 id="daily_log">Daily mood</h1>
             <div class="mood">
                 <h3>Your mood is</h3>
                 <i class="far fa-laugh-squint fa-5x"></i>
@@ -259,10 +261,7 @@
    <div><button id="keep_track_btn"><a href="new-mood-page.html">Keep track</a></button>
     <div class="scroll"><a href="#monthly_log"><div class="arrow"></div></a></div></div>
    
-</div>
-              
-    
-        
+            </div>  
        <div class="monthly-log" id="monthly_log">
            
             <div class="left-col">
@@ -352,13 +351,10 @@
                             </div>
                             </div>
     
-                    </div>
+             </div>
+            </div>
+
                    
-                
-         
-       
-
-
         <script src="node_modules/swiper/dist/js/swiper.min.js"></script>
         <script>
                 var mySwiper = new Swiper ('.swiper-container', {
@@ -383,7 +379,7 @@
                   },
                 })
                 </script>
-                    <script src="https://kit.fontawesome.com/be8b06a7b6.js"></script>
+         <script src="https://kit.fontawesome.com/be8b06a7b6.js"></script>
     
 </body>
      

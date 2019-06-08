@@ -1,0 +1,38 @@
+@media screen and (max-width: 950px) {
+  .header {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 706px) {
+  .recom .recomendation-block {
+    flex-direction: column;
+  }
+  .recom .recomendation-block .column {
+    width: 90%;
+  }
+  .recom .recomendation-block .column .swiper-slide {
+    width: 85%;
+  }
+  .recom .recomendation-block .scroll {
+    width: 15%;
+  }
+  .monthly-log .left-col h1 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .monthly-log .left-col .calendar {
+    width: 90%;
+    height: 80%;
+  }
+  .monthly-log .left-col .calendar .image {
+    height: 75px;
+    padding: 20px;
+  }
+  .monthly-log .left-col .calendar .date {
+    padding: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(13px, 1fr));
+  }
+  .monthly-log .right-col {
+    overflow: scroll;
+  }
+}
