@@ -115,7 +115,7 @@
   font-family: 'Courier New', Courier, monospace;
 }
 .monthly-log .right-col .caption .content i {
-  margin: 30px;
+  margin-top: 15px;
 }
 .monthly-log .right-col .caption .content ul {
   position: relative;
