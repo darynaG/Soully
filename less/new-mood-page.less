@@ -1,4 +1,5 @@
 @import "variables.less";
+.hide { display: none; }
 .body{
     margin: 0;
     padding: 0;
@@ -28,7 +29,17 @@
         font-size: 40px;    
         padding-top: 210px;
         }
-        
+        input[type="radio"] + .far,
+        input[type="radio"] + label > .far { cursor: pointer; }
+
+        input[type="radio"] + .far:before,
+        input[type="radio"] + label > .far:before { color: black;}
+        input[type="radio"]:checked + .far:before,
+        input[type="radio"]:checked + label > .far:before 
+        { color: @green; 
+           
+        }
+
 
 }
 .activity-picker{
@@ -55,7 +66,18 @@
     .block {
         padding-top: 100px;
     }
-    
+    input[type="checkbox"] + .fas,
+    input[type="checkbox"] + label > .fas { cursor: pointer; }
+
+    input[type="checkbox"] + .fas:before,
+    input[type="checkbox"] + label > .fas:before { color: black;}
+    input[type="checkbox"]:checked + .fas:before,
+    input[type="checkbox"]:checked + label > .fas:before 
+    {   
+        color: @green;  
+        
+    }
+        
 }
 .story-sharer{
     display: flex;
@@ -77,20 +99,24 @@
     display: flex;
     flex-direction: column;
    .story-text{
+       font-family: @font-label;
+       font-size: 18px;
        resize: none;
        word-wrap: normal;
        margin: auto;
-       margin-top: 100px;
+       margin-top: 70px;
        width: 500px;
        height: 200px;
+       outline: none;
+	-moz-appearance: none;
    } 
-   .btn {
+   .round-btn {
         margin: auto;
-        margin-top: 20px;
-        width: 50px;
+        margin-top: 50px;
         margin-bottom: 100px;
    }
 }
+//flex-box block and item - used in smiles and activities picking
 .block {
        
     padding: 0;
@@ -120,6 +146,8 @@
         margin-top: 20px;
         
     }
+
+    display: inline-block;
     padding: 5px;
     width: 50px;
     height: 50px;
@@ -137,10 +165,9 @@
         .h6-label, .h5-label{
             visibility: visible;
             background-color: rgba(240, 248, 255, 0.205);
-
         }
     }
-    
+       
   }
   .h5-label{
       font-family: @font-label;
@@ -166,3 +193,4 @@ margin:0;
 padding: 0;
 z-index: -100;
     }
+

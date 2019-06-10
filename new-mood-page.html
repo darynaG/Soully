@@ -10,6 +10,8 @@
     <link rel="stylesheet" type="text/css" href="css/footer.css">
     <link rel="stylesheet" type="text/css" href="css/new-mood-page.css">  
     <link rel="stylesheet" type="text/css" href="css/arrow.css">  
+    <link rel="stylesheet" type="text/css" href="css/button.css">  
+
 
     <title>Mood Page</title>
 </head>
@@ -47,25 +49,45 @@
 </div>
         <div class="mood-picker">
             <h3 class="h3-label">What is your mood?</h3>  
-            <ul class="block">
+            <ul class="block">            
                     <li class="flex-item">
-                            <i class="far fa-sad-tear fa-5x"><h6 class="h5-label">sad</h6> </i>
-                    
+                        <label>
+                                <input type="radio" class="hide" name="fa-check-circle1" value="sad">
+                       <i class="far fa-sad-tear fa-5x"><h6 class="h5-label">sad</h6> </i> 
+                    </label>
+                            
                 </li>
-                    <li class="flex-item">  
-                            <i class="far fa-frown-open fa-5x"><h6 class="h5-label">wow</h6></i>
+                    <li class="flex-item">    
+                            <label>
+                                    <input type="radio" class="hide" name="fa-check-circle1" value="wow">
+                            <i class="far fa-frown-open fa-5x">
+                            <h6 class="h5-label">wow</h6>
+                        </i>
+                        </label>
                     </li>
                     <li class="flex-item"> 
+                            <label>
+                                    <input type="radio" class="hide" name="fa-check-circle1" value="wtf">
                             <i class="far fa-meh-rolling-eyes fa-5x"><h6 class="h5-label">wtf</h6></i>
+                            </label>
                     </li>
                     <li class="flex-item"> 
+                            <label>
+                                    <input type="radio" class="hide" name="fa-check-circle1" value="excited">
                             <i class="far fa-laugh-wink fa-5x"> <h6 class="h5-label">excited</h6></i> 
+                            </label>
                     </li class="flex-item"> 
                     <li class="flex-item"> 
+                            <label>
+                                    <input type="radio" class="hide" name="fa-check-circle1" value="good">
                             <i class="far fa-laugh-beam fa-5x"><h6 class="h5-label">good</h6></i>
+                            </label>
                     </li>
                     <li class="flex-item">  
+                            <label>
+                                    <input type="radio" class="hide" name="fa-check-circle1" value="happy">
                             <i class="far fa-laugh-squint fa-5x"><h6 class="h5-label">happy</h6></i>
+                            </label>
                     </li>              
                     </ul>
                           <!-- <a href="#activity" class="scroll-down-arrow"><i class="fas fa-angle-down fa-3x"></i></a> -->
@@ -81,35 +103,64 @@
            
             <ul class="block">
                     <li class="flex-item">
-                         <i class="fas fa-glass-whiskey fa-3x"><h6 class="h6-label">Water</h6> </i>
-                    
-                </li>
+                        <label>
+                        <input type="checkbox" class="hide" value="water">
+                         <i class="fas fa-glass-whiskey fa-3x"><h6 class="h6-label">Water</h6> </i> 
+                    </label>
+                     </li>
                     <li class="flex-item">  
+                            <label>
+                                    <input type="checkbox" class="hide" value="sport">
                         <i class="fas fa-table-tennis fa-3x"><h6 class="h6-label">Sport</h6></i>
+                        </label>
                     </li>
                     <li class="flex-item"> 
+                            <label>
+                                    <input type="checkbox" class="hide" value="lazy">
                             <i class="fas fa-couch fa-3x"><h6 class="h6-label">Lazy day</h6></i>
+                            </label>
                     </li>
                     <li class="flex-item"> 
+                            <label>
+                                    <input type="checkbox" class="hide" value="walking">
                     <i class="fas fa-walking fa-3x"><h6 class="h6-label">Walking</h6></i> 
+                    </label>
                     </li class="flex-item"> 
                     <li class="flex-item"> 
-                        <i class="fas fa-running fa-3x"><h6 class="h6-label">Running</h6></i>
+                            <label>
+                                    <input type="checkbox" class="hide" value="hiking">
+                                    <i class="fas fa-hiking fa-3x"><h6 class="h6-label">Hiking</h6></i>
+                        </label>
                     </li>
                     <li class="flex-item">  
-                    <i class="fas fa-hiking fa-3x"><h6 class="h6-label">Hiking</h6></i>
+                            <label>
+                                    <input type="checkbox" class="hide" value="running">
+                                    <i class="fas fa-running fa-3x"><h6 class="h6-label">Running</h6></i>
+                    </label>
                     </li>
                     <li class="flex-item"> 
+                            <label>
+                                    <input type="checkbox" class="hide" value="date">
                     <i class="fas fa-heart fa-3x"><h6 class="h6-label">Date</h6></i>
+                    </label>
                     </li>
                     <li class="flex-item"> 
+                            <label>
+                                    <input type="checkbox" class="hide" value="birthday">
                         <i class="fas fa-birthday-cake fa-3x"><h6 class="h6-label">Birthday</h6></i>
+                        </label>
                     </li>
                     <li class="flex-item">
+                            <label>
+                                    <input type="checkbox" class="hide" value="party">
                         <i class="fas fa-glass-cheers fa-3x"><h6 class="h6-label">Party</h6></i>
+                        </label>
                     </li>
-                    <li class="flex-item">  
+                    <li class="flex-item"> 
+                            <label>
+                                    <input type="checkbox" class="hide" value="charity"> 
                     <i class="fas fa-hand-holding-heart fa-3x"><h6 class="h6-label">Charity</h6></i>
+                    </label>
                     </li>
                     </ul>
                     <a href="#story"> <div class="arrow"></div></a>
@@ -118,10 +169,13 @@
             <h3 class="h3-label">Share your story</h3>
             <form class="story">
                 <textarea class="story-text" name="subject" placeholder="Write something.."></textarea>
-                <input class="btn" type="submit" value="Submit">
+                <input class="round-btn" type="submit" value="Share">
             </form>
     </div>
     </div>
+   
+
+         
     <footer class="footer">
    
         <div class="footer-content">
