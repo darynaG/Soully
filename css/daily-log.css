@@ -8,6 +8,12 @@
   background-image: url(../img/sky_pink.jpg);
   background-size: cover;
 }
+.daily-log .scroll {
+  margin-bottom: 30px;
+}
+.daily-log h1 {
+  padding-top: 110px;
+}
 .daily-log .mood i {
   margin: 30px;
 }
@@ -35,7 +41,7 @@
   font-size: 20px;
 }
 .daily-log div {
-  margin: 40px;
+  margin: 10px;
   align-items: center;
   display: flex;
   flex-direction: column;

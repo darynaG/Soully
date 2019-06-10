@@ -2,7 +2,12 @@
   margin: 0;
   padding: 0;
   width: 100vw;
-  height: 91vh;
+  overflow-x: hidden;
+}
+.top-menu-nav-menu {
+  display: flex;
+  position: absolute;
+  left: -1000px;
 }
 .recom {
   margin-top: 110px;
@@ -28,7 +33,7 @@
   justify-content: center;
 }
 .scroll .arrow {
-  margin-top: 10vh;
+  margin-bottom: 10vh;
 }
 .scroll a {
   align-self: center;
