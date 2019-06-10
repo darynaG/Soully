@@ -1,61 +1,93 @@
 @import "variables.less";
+.hide { display: none; }
 .body{
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
+    overflow: hidden;
 }
 .mood-picker{
 
-    height: 91vh;    
-    width: 100vw;
+    //height: 91vh;    
+    //width: 100vw;
     display: flex;
         flex-direction: column;
         justify-content: center;
         align-content: center;
         align-items: stretch;
-        margin-top: 150px;
+        padding-top: 150px;
+        //margin-top: 150px;
         .arrow{
-            margin-top: 30vh;
+            padding-top: 200px;
+           // margin-top: 30vh;
         }
         a {
             align-self: center;
         }
         .h3-label{
         font-size: 40px;    
-        
+        padding-top: 210px;
         }
+        input[type="radio"] + .far,
+        input[type="radio"] + label > .far { cursor: pointer; }
+
+        input[type="radio"] + .far:before,
+        input[type="radio"] + label > .far:before { color: black;}
+        input[type="radio"]:checked + .far:before,
+        input[type="radio"]:checked + label > .far:before 
+        { color: @green; 
+           
+        }
+
 
 }
 .activity-picker{
-    height: 91vh;
-    width: 100vw;
+    //height: 91vh;
+    //width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: stretch;
     align-content: center;
-    //margin-top: 150px;
-    padding-top: 170px;
+    margin-top: 120px;
+    
     .h3-label{
         font-size: 40px;   
-        //margin-top: 10hv; 
+        padding-top: 250px
     }
     .arrow{
-        margin-top: 25vh;
+        margin-top: 100px;
+        padding-top: 110px;
     }
     a {
         align-self: center;
     }
+    .block {
+        padding-top: 100px;
+    }
+    input[type="checkbox"] + .fas,
+    input[type="checkbox"] + label > .fas { cursor: pointer; }
+
+    input[type="checkbox"] + .fas:before,
+    input[type="checkbox"] + label > .fas:before { color: black;}
+    input[type="checkbox"]:checked + .fas:before,
+    input[type="checkbox"]:checked + label > .fas:before 
+    {   
+        color: @green;  
+        
+    }
+        
 }
 .story-sharer{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    height: 71vh;
-    width: 100vw;
+    //height: 71vh;
+    //width: 100vw;
     margin-top: 200px;
+    
     .h3-label{
         font-size: 40px;   
         //margin-top: 10hv; 
@@ -65,9 +97,26 @@
 
 .story{
     display: flex;
+    flex-direction: column;
    .story-text{
+       font-family: @font-label;
+       font-size: 18px;
+       resize: none;
+       word-wrap: normal;
+       margin: auto;
+       margin-top: 70px;
+       width: 500px;
+       height: 200px;
+       outline: none;
+	-moz-appearance: none;
    } 
+   .round-btn {
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 100px;
+   }
 }
+//flex-box block and item - used in smiles and activities picking
 .block {
        
     padding: 0;
@@ -97,6 +146,8 @@
         margin-top: 20px;
         
     }
+
+    display: inline-block;
     padding: 5px;
     width: 50px;
     height: 50px;
@@ -114,10 +165,9 @@
         .h6-label, .h5-label{
             visibility: visible;
             background-color: rgba(240, 248, 255, 0.205);
-
         }
     }
-    
+       
   }
   .h5-label{
       font-family: @font-label;
@@ -127,14 +177,14 @@
         margin-top: 20px;
   }
   
-  .video {
+ .video {
     width: 100%;
     position: absolute;
      top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
-    margin-bottom: 100vw;
+    //margin-bottom: 100vw;
 background-size: cover;
 background-repeat: no-repeat;
 background-position: 100%;
@@ -143,3 +193,4 @@ margin:0;
 padding: 0;
 z-index: -100;
     }
+
