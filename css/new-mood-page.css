@@ -84,7 +84,6 @@
 }
 .story {
   display: flex;
-
   flex-direction: column;
 }
 .story .story-text {
@@ -103,7 +102,6 @@
   margin: auto;
   margin-top: 50px;
   margin-bottom: 100px;
-
 }
 .block {
   padding: 0;
@@ -143,6 +141,7 @@
 }
 .flex-item:hover .h6-label,
 .flex-item:hover .h5-label {
+  color: #004d40;
   visibility: visible;
   background-color: rgba(240, 248, 255, 0.205);
 }
@@ -166,4 +165,7 @@
   margin: 0;
   padding: 0;
   z-index: -100;
+  object-fit: fill;
+  min-height: 100%;
+  min-width: 100%;
 }
