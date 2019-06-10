@@ -3,56 +3,75 @@
   padding: 0;
   width: 100%;
   height: 100%;
+  overflow: hidden;
 }
 .mood-picker {
-  height: 91vh;
-  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
   align-items: stretch;
-  margin-top: 150px;
+  padding-top: 150px;
 }
 .mood-picker .arrow {
-  margin-top: 30vh;
+  padding-top: 200px;
 }
 .mood-picker a {
   align-self: center;
 }
 .mood-picker .h3-label {
   font-size: 40px;
+  padding-top: 210px;
 }
 .activity-picker {
-  height: 91vh;
-  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: stretch;
   align-content: center;
-  padding-top: 170px;
+  margin-top: 120px;
 }
 .activity-picker .h3-label {
   font-size: 40px;
+  padding-top: 250px;
 }
 .activity-picker .arrow {
-  margin-top: 25vh;
+  margin-top: 100px;
+  padding-top: 110px;
 }
 .activity-picker a {
   align-self: center;
+}
+.activity-picker .block {
+  padding-top: 100px;
 }
 .story-sharer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  height: 71vh;
-  width: 100vw;
   margin-top: 200px;
 }
 .story-sharer .h3-label {
   font-size: 40px;
+}
+.story {
+  display: flex;
+  flex-direction: column;
+}
+.story .story-text {
+  resize: none;
+  word-wrap: normal;
+  margin: auto;
+  margin-top: 100px;
+  width: 500px;
+  height: 200px;
+}
+.story .btn {
+  margin: auto;
+  margin-top: 20px;
+  width: 50px;
+  margin-bottom: 100px;
 }
 .block {
   padding: 0;
@@ -107,7 +126,6 @@
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  margin-bottom: 100vw;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 100%;
