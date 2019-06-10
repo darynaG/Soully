@@ -84,6 +84,7 @@
 }
 .story {
   display: flex;
+
   flex-direction: column;
 }
 .story .story-text {
@@ -102,6 +103,7 @@
   margin: auto;
   margin-top: 50px;
   margin-bottom: 100px;
+
 }
 .block {
   padding: 0;

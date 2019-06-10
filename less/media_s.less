@@ -1,15 +1,29 @@
 
 @import "variables.less";
+@media screen and (max-width: 1500px) {
+    .video{
+       
+        top:47%;
+    }
+}
 @media screen and (max-width: 1400px) {
     .add-margin-max{
         margin-top: 10px;
     }
+    .video{
+       
+        top:45%;
+    }
 }
-@media screen and (max-width: 900px) {
+
+@media screen and (max-width: 1300px) {
    .container, .centered-text  {
       
-      font-size: 30px;
-}
+      font-size: 30px;}
+      .video{
+        width: unset;
+      }
+
 
 .mood-picker{
     font-size: 10px;
@@ -21,7 +35,7 @@
     font-size: 10px;  
 }
 .container{
-    max-height: 100vh;
+   
     display: flexbox;
 }
 .storyboard{
@@ -101,13 +115,13 @@
      
     }
     .storyboard{
-        margin-top: 300px;
+        //margin-top: 300px;
         
         
     }
    
    .mood-picker{
-    margin-bottom: 500px;
+  
        height: 30%;
    }
    .add-margin{
