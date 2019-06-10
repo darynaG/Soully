@@ -7,8 +7,8 @@
   flex-direction: column;
 }
 .footer-content {
-  padding-left: 300px;
-  padding-right: 300px;
+  padding-left: 30%;
+  padding-right: 30%;
   margin-top: 30px;
   margin-bottom: 30px;
   display: flex;

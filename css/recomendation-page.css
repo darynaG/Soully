@@ -13,7 +13,7 @@
   margin-top: 110px;
 }
 .recom .recomendation-block {
-  width: 100vw;
+  width: 100%;
   background-color: white;
   display: flex;
   flex-direction: row;
