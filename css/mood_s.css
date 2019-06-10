@@ -17,6 +17,9 @@
   font-size: 30px;
   margin-top: 30px;
 }
+.mood-picker input[type=radio] {
+  visibility: collapse;
+}
 .block {
   padding: 0;
   margin: 0;
