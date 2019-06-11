@@ -95,15 +95,6 @@
     height: 100vh;
     width: 100vw;
   }
-  .monthly-log .left-col .calendar {
-    width: 80%;
-  }
-  .monthly-log .left-col .calendar .image {
-    height: 100px;
-  }
-  .monthly-log .left-col .calendar .date {
-    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
-  }
   .monthly-log .right-col .caption {
     left: 0px;
     top: 0%;

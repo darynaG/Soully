@@ -14,9 +14,12 @@
     <link rel="stylesheet" type="text/css" href="css/monthly-log.css">
     <link rel="stylesheet" type="text/css" href="css/daily-log.css">
     <link rel="stylesheet" type="text/css" href="css/calendar.css">
+
     <link rel="stylesheet" type="text/css" href="css/responsible-recomendation.css">
     <link rel="stylesheet" href="css/swiper.css">
     <link rel="stylesheet" href="node_modules/swiper/dist/css/swiper.min.css">
+    
+    
 
     <title>Soul.ly</title>
 </head>
@@ -274,55 +277,23 @@
             <div class="left-col">
                     <h1>Mothly log</h1>
                     <div class="calendar">
-                        <div class="image">
-                            <h2>06, Thursday</h2>
-                            <h3>June | 2019</h3>
-                        </div>
-                        <div class="date">
-                            <div class="day">Mo</div>
-                            <div class="day">Tu</div>
-                            <div class="day">We</div>
-                            <div class="day">Th</div>
-                            <div class="day">Fr</div>
-                            <div class="day">Sa</div>
-                            <div class="day">Su</div>
-                            <div class="number"></div>
-                            <div class="number"></div>
-                            <div class="number"></div>
-                            <div class="number"></div>
-                            <div class="number"></div>
-                            <div class="number">1</div>
-                            <div class="number">2</div>
-                            <div class="number">3</div>
-                            <div class="number">4</div>
-                            <div class="number">5</div>
-                            <div class="number active">6</div>
-                            <div class="number">7</div>
-                            <div class="number">8</div>
-                            <div class="number">9</div>
-                            <div class="number">10</div>
-                            <div class="number">11</div>
-                            <div class="number">12</div>
-                            <div class="number">13</div>
-                            <div class="number">14</div>
-                            <div class="number">15</div>
-                            <div class="number">16</div>
-                            <div class="number">17</div>
-                            <div class="number">18</div>
-                            <div class="number">19</div>
-                            <div class="number">20</div>
-                            <div class="number">21</div>
-                            <div class="number">22</div>
-                            <div class="number">23</div>
-                            <div class="number">24</div>
-                            <div class="number">25</div>
-                            <div class="number">26</div>
-                            <div class="number">27</div>
-                            <div class="number">28</div>
-                            <div class="number">29</div>
-                            <div class="number">30</div>
-
-                        </div>
+                            <div class="calendar__info">
+                                    <div class="calendar__prev" id="prev-month">&#9664</div>
+                                    <div class="calendar__month" id="month"></div>
+                                    <div class="calendar__year" id="year"></div>
+                                    <div class="calendar__next" id="next-month">&#9654</div>
+                                </div>
+                                <div class="calendar__week">
+                                    <div class="calendar__day calendar__item">Mon</div>
+                                    <div class="calendar__day calendar__item">Tue</div>
+                                    <div class="calendar__day calendar__item">Wed</div>
+                                    <div class="calendar__day calendar__item">Thu</div>
+                                    <div class="calendar__day calendar__item">Fri</div>
+                                    <div class="calendar__day calendar__item">Sat</div>
+                                    <div class="calendar__day calendar__item">Sun</div>
+                                </div>
+                                <div class="calendar__dates" id="dates"></div>
+                
 
                     </div>
                 </div>
@@ -359,36 +330,14 @@
                             </div>
     
              </div>
-             <label>Date</label>
-            <div class="calendar">
-                <div class="calendar--info">
-                    <div class="calendar--prev" id="prev-month">&#9664</div>
-                    <div class="calendar--month" id="month"></div>
-                    <div class="calendar--year" id="year"></div>
-                    <div class="calendar--next" id="next-month">&#9654</div>
-                </div>
-                <div class="calendar--week">
-                    <div class="calendar--day calendar--item">Mon</div>
-                    <div class="calendar--day calendar--item">Tue</div>
-                    <div class="calendar--day calendar--item">Wed</div>
-                    <div class="calendar--day calendar--item">Thu</div>
-                    <div class="calendar--day calendar--item">Fri</div>
-                    <div class="calendar--day calendar--item">Sat</div>
-                    <div class="calendar--day calendar--item">Sun</div>
-                </div>
-                <div class="calendar--dates" id="dates"></div>
-
-            </div>
-        
+             
+         
         
                 </div>
-      
-                  
-
-
-
-                <script type="text/javascript" src="js/script.js"></script>
-
+             
+                <script type="text/javascript" src="js/script.js" >
+                </script>
+              
                    
         <script src="node_modules/swiper/dist/js/swiper.min.js"></script>
         <script>

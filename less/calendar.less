@@ -1,38 +1,43 @@
+@import "variables.less";
 .calendar{
     width: 80%;
-    max-width: 600px;
+    height: 80%;
+    //max-width: 600px;
     margin:1em auto;
     padding:  .5em 0;
-    &--info{
+    background-color: rgb(242, 236, 245);;
+    &__info{
         display:flex;
         align-items: center;
         padding:0 2em;
         font-size: 1.2em;
         text-transform: uppercase;
     }
-    &--prev ,&--next{
+    &__prev ,&__next{
        // color:$today;
         cursor:pointer;
         font-size: 1.3em;
     }
-    &--prev{
+    &__prev{
         margin-right: auto;
     }
-    &--next{
+    &__next{
         margin-left: auto;
     }
-    &--week, &--dates{
+    &__week, &__dates{
         display: grid;
         grid-template-columns: repeat(7, 1fr);
         grid-gap:10px;
     }
-    &--month, &--year{
-        padding:.5em , 1em;
+    &__month, &__year{
+        padding:.5em 1em;
     }
-    &--item{
+    &__item{
         text-align:center;
         line-height: 2;
     }
+
+
     &__today{
         background-color: lightcoral;
         color:white;
@@ -41,7 +46,7 @@
         margin:auto;
     }
     &__last-days{
-        opacity:.3em;
+        color:transparent;
 
     }
 }
