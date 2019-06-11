@@ -12,7 +12,8 @@
     <link rel="stylesheet" type="text/css" href="css/button.css">
     <link rel="stylesheet" type="text/css" href="css/footer.css">
     <link rel="stylesheet" type="text/css" href="css/header_s.css">
-    <link rel="stylesheet" type="text/css" href="css/mood_s.css">
+    <!--<link rel="stylesheet" type="text/css" href="css/mood_s.css">-->
+    <link rel="stylesheet" type="text/css" href="css/new-mood-page.css">
    
     
     
@@ -44,56 +45,57 @@
             </header>
             
               
-    <section id="greating" class="container">
-            
-            <div class="mood-picker ">
-                    <div class="add-margin-max"><h3 class="h3-label ">What is your mood?</h3>  </div> 
-                     <ul class="block">
-                             <li class="flex-item">
-                                 <input type="radio">
-                                     <i class="far fa-sad-tear fa-5x"><h6 class="h5-label">sad</h6> </i>
-                             
-                         </li>
-                             <li class="flex-item">  
-                                    <input type="radio">
-                                     <i class="far fa-frown-open fa-5x"><h6 class="h5-label">wow</h6></i>
-                             </li>
-                             <li class="flex-item"> 
-                                    <input type="radio">
-                                     <i class="far fa-meh-rolling-eyes fa-5x"><h6 class="h5-label">wtf</h6></i>
-                             </li>
-                             <li class="flex-item"> 
-                                    <input type="radio">
-                                     <i class="far fa-laugh-wink fa-5x"> <h6 class="h5-label">excited</h6></i> 
-                             </li class="flex-item"> 
-                             <li class="flex-item"> 
-                                    <input type="radio">
-                                     <i class="far fa-laugh-beam fa-5x"><h6 class="h5-label">good</h6></i>
-                             </li>
-                             <li class="flex-item">  
-                                    <input type="radio">
-                                     <i class="far fa-laugh-squint fa-5x"><h6 class="h5-label">happy</h6></i>
-                             </li>              
-                             </ul>
-                            <br>
-                           
+            <div class="container mood-picker ">
+                    <h3 class="h3-label">What is your mood?</h3>  
+                    <ul class="block">            
+                            <li class="flex-item">
+                                <label class="radio-label">
+                                        <input type="radio" class="hide" name="fa-check-circle1" value="sad">
+                               <i class="far fa-sad-tear fa-5x"><h6 class="h5-label">sad</h6> </i> 
+                            </label>
                                     
-                               
-             </div>    
-   
-
-<video  class="video" playsinline autoplay muted loop id="myVideo">
-        <source src="video/Nature.mp4" type="video/mp4">
-    </video>
-</div>
-
-<a data-scroll href="#base" >
-        <div class="arrow make-down"></div>
-      </a>
-               
-</section>
+                        </li>
+                            <li class="flex-item">    
+                                    <label>
+                                            <input type="radio" class="hide" name="fa-check-circle1" value="wow">
+                                    <i class="far fa-frown-open fa-5x">
+                                    <h6 class="h5-label">wow</h6>
+                                </i>
+                                </label>
+                            </li>
+                            <li class="flex-item"> 
+                                    <label>
+                                            <input type="radio" class="hide" name="fa-check-circle1" value="wtf">
+                                    <i class="far fa-meh-rolling-eyes fa-5x"><h6 class="h5-label">wtf</h6></i>
+                                    </label>
+                            </li>
+                            <li class="flex-item"> 
+                                    <label>
+                                            <input type="radio" class="hide" name="fa-check-circle1" value="excited">
+                                    <i class="far fa-laugh-wink fa-5x"> <h6 class="h5-label">excited</h6></i> 
+                                    </label>
+                            </li class="flex-item"> 
+                            <li class="flex-item"> 
+                                    <label>
+                                            <input type="radio" class="hide" name="fa-check-circle1" value="good">
+                                    <i class="far fa-laugh-beam fa-5x"><h6 class="h5-label">good</h6></i>
+                                    </label>
+                            </li>
+                            <li class="flex-item">  
+                                    <label>
+                                            <input type="radio" class="hide" name="fa-check-circle1" value="happy">
+                                    <i class="far fa-laugh-squint fa-5x"><h6 class="h5-label">happy</h6></i>
+                                    </label>
+                            </li>              
+                            </ul>
+                                  <!-- <a href="#activity" class="scroll-down-arrow"><i class="fas fa-angle-down fa-3x"></i></a> -->
+                                  <a href="#base"> <div class="arrow"></div></a>
+            <video  class="video" playsinline autoplay muted loop id="myVideo">
+                                        <source src="video/Nature.mp4" type="video/mp4">
+                            </video>                
+            </div>
     
-<div id="base" class="container "> 
+<div id="base" class="container add-margin"> 
     
    
    

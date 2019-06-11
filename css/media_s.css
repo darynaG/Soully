@@ -110,7 +110,10 @@
     justify-content: center;
   }
   .flex-item i.fa-laugh-wink {
-    margin-left: -5px;
+    margin-left: -11px;
+  }
+  .flex-item i.fa-frown-open {
+    margin-left: 5px;
   }
   .centered-text {
     font-size: 20px;
