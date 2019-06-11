@@ -1,0 +1,155 @@
+@media screen and (max-width: 1360px) {
+  .recom .swiper-slide h1 {
+    font-size: 25px;
+  }
+  .recom .swiper-slide div {
+    font-size: 15px;
+  }
+  .recom .swiper-button-prev,
+  .recom .swiper-button-next {
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 970px) {
+  .header {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 902px) {
+  .recom .recomendation-block {
+    flex-direction: column;
+  }
+  .recom .recomendation-block .column {
+    width: 90%;
+  }
+  .recom .recomendation-block .column .swiper-slide {
+    width: 85%;
+  }
+  .recom .recomendation-block .column .swiper-slide img {
+    height: 30%;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  .recom .recomendation-block .column .swiper-slide div {
+    font-size: 20px;
+  }
+  .recom .recomendation-block .column .swiper-slide h1 {
+    font-size: 25px;
+  }
+  .recom .recomendation-block .scroll {
+    width: 15%;
+  }
+  .monthly-log .left-col h1 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .monthly-log .left-col .calendar {
+    width: 90%;
+    height: 80%;
+  }
+  .monthly-log .left-col .calendar .image {
+    height: 75px;
+    padding: 20px;
+  }
+  .monthly-log .left-col .calendar .date {
+    padding: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
+  }
+}
+@media screen and (max-width: 902px) {
+  .monthly-log .left-col h1 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .monthly-log .left-col .calendar {
+    width: 90%;
+    height: 80%;
+  }
+  .monthly-log .left-col .calendar .image {
+    height: 75px;
+    padding: 20px;
+  }
+  .monthly-log .left-col .calendar .date {
+    padding: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
+  }
+  .monthly-log .right-col .content {
+    top: 5%;
+  }
+  .monthly-log .right-col .story {
+    font-size: 15px;
+    height: 10%;
+    overflow: auto;
+  }
+  .monthly-log .right-col .story i {
+    margin: 15px;
+  }
+}
+@media screen and (max-width: 740px) {
+  .monthly-log {
+    flex-direction: column;
+  }
+  .monthly-log .left-col,
+  .monthly-log .right-col {
+    height: 100vh;
+    width: 100vw;
+  }
+  .monthly-log .right-col .caption {
+    left: 0px;
+    top: 0%;
+    position: absolute;
+  }
+  .monthly-log .right-col .caption .content {
+    top: 0;
+  }
+  .top-menu {
+    width: 100%;
+  }
+  .top-menu .top-menu-nav {
+    justify-content: flex-end;
+    text-align: right;
+    align-items: flex-end;
+  }
+  .top-menu .top-menu-nav:hover .top-menu-nav-list {
+    right: 0px;
+    margin-top: 20px;
+  }
+  .top-menu .top-menu-nav .top-menu-nav-list {
+    display: grid;
+    position: absolute;
+    right: -1000px;
+    background-color: #EDEAE5;
+  }
+  .top-menu .top-menu-nav .top-menu-nav-menu {
+    left: 90%;
+    align-self: center;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 450px) {
+  .recom .recomendation-block {
+    flex-direction: column;
+  }
+  .recom .recomendation-block .column {
+    width: 90%;
+  }
+  .recom .recomendation-block .column .swiper-slide {
+    width: 85%;
+  }
+  .recom .recomendation-block .column .swiper-slide img {
+    height: 30%;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  .recom .recomendation-block .column .swiper-slide div {
+    font-size: 15px;
+  }
+  .recom .recomendation-block .column .swiper-slide h1 {
+    font-size: 20px;
+  }
+  .recom .recomendation-block .scroll {
+    width: 15%;
+  }
+}
