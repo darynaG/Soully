@@ -1,17 +1,19 @@
 @import "variables.less";
 .hide { display: none; }
-.body{
+body{
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
-    overflow: hidden;
-    background-image: url(../img/back-leaves.png);
+    overflow-x: hidden;
+    //background-image: url(../img/Untitled\ design.png);
+    //background-size: cover;
 }
 .mood-picker{
 
     //height: 91vh;    
     //width: 100vw;
+    
     display: flex;
         flex-direction: column;
         justify-content: center;
@@ -43,7 +45,12 @@
 
 
 }
+.cover-img {
+    //background-image: url(../img/strokes-hard.png);
+    //background-size: cover;
+}
 .activity-picker{
+    
     //height: 91vh;
     //width: 100vw;
     display: flex;
@@ -81,6 +88,7 @@
         
 }
 .story-sharer{
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -109,7 +117,9 @@
        width: 500px;
        height: 200px;
        outline: none;
-	-moz-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    
    } 
    .round-btn {
         margin: auto;
