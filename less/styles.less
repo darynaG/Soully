@@ -130,6 +130,7 @@ display: flexbox;
   padding: 15px;
   border-radius: 10px;
   font-family: @font-label;
+ 
   .story_footer{
     display:flex;
    justify-content: flex-end;
@@ -137,16 +138,49 @@ display: flexbox;
    border-style: solid;
    border-color:@grey;
    border-width: 1px 0px 0px 0px;
+   vertical-align: middle;
+   .h6-label{
+    text-align: center;
+    font-family: @font-label;
+    font-size: 13px;
+    visibility: hidden;
+    margin-top: 20px;
+    padding-right: 5px;
+    
+}
    i{
      font-size: 40px;
      font-weight: 100;
+     color: whitesmoke;
+    
    }
+   i:hover{
+    color: #9e0741d5;
+    .h6-label, .h5-label{
+      color : #9e0741d5;
+      visibility: visible;
+      background-color: rgba(240, 248, 255, 0.205);
   }
+    
+   }
+   &:hover {
+    color:#9e0741d5;
+
+.h6-label, .h5-label{
+    color : #9e0741d5;
+    visibility: visible;
+    background-color: rgba(240, 248, 255, 0.205);
+}
+}
+  }
+  
 }
 .image_user{
 border-radius: 50%;
 width: 50px;
 height: 50px;
+margin: 7px;
+margin-bottom: 15px;
 display: inline-block;
 
 }
