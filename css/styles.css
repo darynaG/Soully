@@ -102,6 +102,18 @@ html {
   border-radius: 10px;
   font-family: 'Courier New', Courier, monospace;
 }
+.story .story_footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  border-style: solid;
+  border-color: #EDEAE5;
+  border-width: 1px 0px 0px 0px;
+}
+.story .story_footer i {
+  font-size: 40px;
+  font-weight: 100;
+}
 .image_user {
   border-radius: 50%;
   width: 50px;
