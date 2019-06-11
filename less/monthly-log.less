@@ -1,5 +1,5 @@
 .monthly-log{
-        height: 100vh;
+        height: 90vh;
         width: 100vw;
         background-color: white;
          display: flex;
@@ -7,7 +7,7 @@
              justify-content:center;
              align-content: center; 
              box-sizing: border-box;
-             margin-top:110px;
+             //margin-top:110px;
             .left-col, .right-col{
                  
                  
@@ -18,6 +18,7 @@
                  font-size: 30px;
                  text-align:center;
                  margin:90px;
+                 padding-top:40px;
                  }
              }
              .left-col{
@@ -29,58 +30,10 @@
                 text-align: center;
                 overflow: hidden;
                 position: relative;
-                .calendar{
-                    width: 500px;
-                    height:500px;
-                    background:#fff;
-                    box-sizing:border-box;
-                    box-shadow:0,5px,50px, rgba(0, 0, 0, .5);
-                    margin:0 auto;
-                    text-align: center; 
-                    div.number.active,.date div.number:hover{
-                        background:rgb(221, 192, 235);
-                        color:#fff;
-                        font-weight: 900;
-                        cursor: pointer;
-                    }
-                    .date div.number:nth-child(7n)
-                    {
-                        color:red;
-                    }
-                    .date div.day:nth-child(7){
-                        color:red;
-                    }
-                    .date div.day{
-                        font-weight:700;
-                    }
-                    .image{
-                        width: 100%;
-                        height:100px;
-                        padding:30px;
-                        box-sizing:border-box;
-                        background-color: rgb(221, 192, 235);
-                        h2, h3{
-                    font-family: 'Courier New', Courier, monospace;
-                }
-            }
-            .date{
-                padding:30px;
-                display:grid;
-                grid-template-columns: repeat(auto-fit,minmax(35px, 1fr));
-                grid-gap:25px;
-                box-sizing:border-box;
-                div{
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    height:25px;
-                    color:#262626
-                }
-            
-            
-            }
-                }
-                  }
+             }
+           
+                
+                  
                   .right-col{
     
                     align-items: center;
@@ -108,7 +61,7 @@
                         h2{
                         
                             position: relative;
-                            margin-top:-15px;
+                            margin-top:30px;
                             top:21%;
                             color:black;
                             font-family: 'Courier New', Courier, monospace;
@@ -120,7 +73,7 @@
                             font-family: 'Courier New', Courier, monospace;
                         }
                         i{
-                            margin:30px;
+                            margin-top:15px;
                         }
                         ul{
                             position: relative;

@@ -1,0 +1,196 @@
+
+@media screen and(max-width:1360px){
+    .recom{
+        .swiper-slide{
+            h1{
+                font-size:25px;
+            }
+            div{
+                font-size:15px;
+            }    
+        }
+        .swiper-button-prev, .swiper-button-next{
+            margin-top: 50px;
+        }
+        
+    }
+  
+}
+@media screen and(max-width:970px){
+    .header{
+        font-size:15px;
+    }
+    
+}
+@media screen and(max-width:902px){
+    .recom{
+        .recomendation-block{
+            flex-direction: column;
+            .column{
+                width: 90%;
+                .swiper-slide{
+                    width: 85%;
+                    img{
+                        height: 30%;
+                        width: 50%;
+                        margin-left: 25%;
+                        margin-right: 25%;
+                    }
+                    div{
+                        font-size:20px;
+                    }
+                    h1{
+                        font-size:25px;
+                    }
+                }
+            }
+            .scroll{
+                width: 15%;
+            }
+        }
+    }
+    .monthly-log{
+        .left-col{
+            h1{
+                margin-top: 50px;
+                margin-bottom: 20px;
+            }
+            .calendar{
+                width: 90%;
+                height: 80%;
+                .image{
+                    height: 75px;
+                    padding:20px;
+                }
+                .date{
+                    padding: 20px;
+                    grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
+                }
+            }
+        }
+       
+    }
+}
+
+@media screen and(max-width:902px){
+   
+    .monthly-log{
+        .left-col{
+            h1{
+                margin-top: 50px;
+                margin-bottom: 20px;
+            }
+            .calendar{
+                width: 90%;
+                height: 80%;
+                .image{
+                    height: 75px;
+                    padding:20px;
+                }
+                .date{
+                    padding: 20px;
+                    grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
+                }
+            }
+        }
+        .right-col{
+            .content{
+                top: 5%;
+            }
+            .story{
+                font-size: 15px;
+                height: 10%;
+                overflow:auto;
+                i{
+                    margin:15px;
+                }
+            }
+        }
+       
+    }
+}
+@media screen and (max-width:740px){
+    .monthly-log{
+        flex-direction: column;
+        .left-col, .right-col{
+            height: 100vh;
+            width: 100vw;
+        }
+      
+        .right-col{
+            .caption{
+                //height:100vh;
+                left:0px;
+                top:0%;
+                position:absolute;
+
+                h2{
+                  //  margin-top: 10px;
+                }
+                .content{
+                    top:0;
+                }
+            }
+        }
+
+    }  
+    
+    .top-menu{
+       width: 100%;
+    
+    .top-menu-nav{
+        justify-content: flex-end;
+        text-align:right;
+        align-items:flex-end;
+        &:hover .top-menu-nav-list{
+            right:0px;
+            margin-top:20px;
+            
+        }
+        
+            .top-menu-nav-list {
+            
+             display:grid;
+             position:absolute;
+             right:-1000px;
+             background-color: #EDEAE5;
+            
+        }
+        .top-menu-nav-menu{
+            left:90%;
+            align-self: center;
+            justify-content: center;
+        }
+    }}
+        }
+
+
+        @media screen and(max-width:450px){
+            .recom{
+                .recomendation-block{
+                    flex-direction: column;
+                    .column{
+                        width: 90%;
+                        .swiper-slide{
+                            width: 85%;
+                            img{
+                                height: 30%;
+                                width: 50%;
+                                margin-left: 25%;
+                                margin-right: 25%;
+                            }
+                            div{
+                                font-size:15px;
+                            }
+                            h1{
+                                font-size:20px;
+                            }
+                        }
+                    }
+                    .scroll{
+                        width: 15%;
+                    }
+                }
+            }
+          
+        }

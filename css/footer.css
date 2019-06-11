@@ -4,7 +4,10 @@
   flex-direction: column;
 }
 .footer-content {
-  justify-content: space-around;
+
+  padding-left: 30%;
+  padding-right: 30%;
+
   margin-top: 30px;
   margin-bottom: 30px;
   display: flex;
