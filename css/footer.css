@@ -1,14 +1,13 @@
 .footer {
   background-color: #EDEAE5;
-  margin-left: -10px;
-  margin-right: -10px;
-  height: 20vh;
   display: flex;
   flex-direction: column;
 }
 .footer-content {
+
   padding-left: 30%;
   padding-right: 30%;
+
   margin-top: 30px;
   margin-bottom: 30px;
   display: flex;

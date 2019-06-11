@@ -16,7 +16,8 @@ body
   background-size: cover;
   background-position: center center;
   height: 100vh;
-  background-image: url(../img/sky.jpg);
+ // background-image: url(../img/sky.jpg);
+ background-color: @light-green;
 
 }
 
@@ -48,7 +49,7 @@ body
  text-align: center;
  left:10%;
  right: 10%;
- position: absolute;
+ 
  top: 30%;
  font-size: 40px;
  background-color:  rgba(20, 10, 10,0.1);
@@ -74,7 +75,7 @@ html{
   display: flex;
   width: 100%;
   height: 100%;
-  position: absolute;
+  position: relative;
   height: 90vh;
   position: sticky;
   top: 0;
@@ -100,6 +101,7 @@ width: 100%;
   padding: 20px;
 
   margin: 10px;
+  margin-top: 10%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -112,8 +114,8 @@ width: 100%;
   padding: 5px;
   display: flex;
     flex-wrap: wrap;
-  position: absolute;
-  margin-top: 240px;
+  position: relative;
+  
   flex-direction: row;
 
 }
@@ -128,11 +130,23 @@ display: flexbox;
   padding: 15px;
   border-radius: 10px;
   font-family: @font-label;
-
+  .story_footer{
+    display:flex;
+   justify-content: flex-end;
+   padding: 10px;
+   border-style: solid;
+   border-color:@grey;
+   border-width: 1px 0px 0px 0px;
+   i{
+     font-size: 40px;
+     font-weight: 100;
+   }
+  }
 }
 .image_user{
 border-radius: 50%;
 width: 50px;
+height: 50px;
 display: inline-block;
 
 }
@@ -146,6 +160,7 @@ display: inline-block;
 .story article{
   font-family: @font-label;
   font-size: 20px;
+  
 }
 .story_head{
   display: flex;
@@ -171,6 +186,58 @@ display: inline-block;
 .add-margin{
   margin-top: 50px;
 }
-.add-margin-max{
+.add-margin{
   margin-top: 150px;
+}
+.story-board{
+  margin-top: 10%;
+  min-height: 100%;
+  .leftcolumn {   
+    float: left;
+    width: 80%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 20%;
+    //padding-left: 20px;
+    .search_form{
+      border-radius:10px;
+      background-color: @light;
+      margin-top: 7%;
+      margin-right: 3%;
+      height: 30vh;
+      padding: 7%;
+      justify-content: center;
+      input[type=search]{
+        margin: 5%;
+        width: 90%;
+        min-height: 40px;
+        
+        
+        border-radius: 5px;
+      }
+      input[type=search]:hover{
+        border:0px;
+        border-bottom: 3px;
+      }
+      input[type=search]:focus{
+        color: @grey;
+      }
+      button{
+        bottom: 0;
+        margin-top: 20%;
+      }
+    }
+    .articles{
+      border-radius:10px;
+      background-color: @light;
+      margin-top: 7%;
+      margin-right: 3%;
+      
+      padding: 7%;
+      justify-content: center;
+    }
+  }
 }

@@ -24,12 +24,16 @@
   height: 100%;
 }
 .top-menu .top-menu-nav float .logo-img {
-  height: 60px;
-  width: 60px;
+  height: 80px;
+  width: 70px;
   margin-left: 10px;
 }
 .logo {
   padding: 30px;
+}
+.logo .logo-img {
+  height: 80px;
+  margin-left: 10px;
 }
 .top-menu .top-menu-nav .top-menu-nav-list li {
   display: inline-block;

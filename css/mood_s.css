@@ -5,17 +5,34 @@
   height: 100%;
 }
 .mood-picker {
-  max-height: 80vh;
-  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  margin-bottom: auto;
+  align-items: stretch;
+  padding-top: 150px;
+}
+.mood-picker .arrow {
+  padding-top: 200px;
+}
+.mood-picker a {
+  align-self: center;
 }
 .mood-picker .h3-label {
-  font-size: 30px;
-  margin-top: 30px;
+  font-size: 40px;
+  padding-top: 210px;
+}
+.mood-picker input[type="radio"] + .far,
+.mood-picker input[type="radio"] + label > .far {
+  cursor: pointer;
+}
+.mood-picker input[type="radio"] + .far:before,
+.mood-picker input[type="radio"] + label > .far:before {
+  color: black;
+}
+.mood-picker input[type="radio"]:checked + .far:before,
+.mood-picker input[type="radio"]:checked + label > .far:before {
+  color: #004d40;
 }
 .block {
   padding: 0;
@@ -92,4 +109,18 @@
 .swiper-container {
   width: 1000px;
   height: 300px;
+}
+.video {
+  width: 100%;
+  position: absolute;
+  top: 450px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  margin: 0;
+  padding: 0;
+  z-index: -100;
 }
